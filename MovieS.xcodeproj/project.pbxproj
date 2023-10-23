@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7743BDE02994C4F800F0B058 /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7743BDDF2994C4F800F0B058 /* Filmler.swift */; };
+		7743BDE22994C50A00F0B058 /* FilmCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7743BDE12994C50A00F0B058 /* FilmCevap.swift */; };
+		7743BDE42994C51900F0B058 /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7743BDE32994C51900F0B058 /* Kategoriler.swift */; };
+		7743BDE62994C52B00F0B058 /* KategoriCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7743BDE52994C52B00F0B058 /* KategoriCevap.swift */; };
+		7743BDE82994C53500F0B058 /* Yonetmenler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7743BDE72994C53500F0B058 /* Yonetmenler.swift */; };
+		7743BDEA2994F35A00F0B058 /* KategoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7743BDE92994F35A00F0B058 /* KategoriTableViewCell.swift */; };
+		7743BDEC2994F3D700F0B058 /* FilmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7743BDEB2994F3D700F0B058 /* FilmCollectionViewCell.swift */; };
+		7743BDEE2994F48600F0B058 /* FilmDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7743BDED2994F48600F0B058 /* FilmDetayViewController.swift */; };
+		7743BDF02994F52B00F0B058 /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7743BDEF2994F52B00F0B058 /* FilmViewController.swift */; };
 		7772C21E2993E962009F221E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7772C21D2993E962009F221E /* AppDelegate.swift */; };
 		7772C2202993E962009F221E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7772C21F2993E962009F221E /* SceneDelegate.swift */; };
 		7772C2222993E962009F221E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7772C2212993E962009F221E /* ViewController.swift */; };
 		7772C2252993E962009F221E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7772C2232993E962009F221E /* Main.storyboard */; };
 		7772C2272993E965009F221E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7772C2262993E965009F221E /* Assets.xcassets */; };
 		7772C22A2993E965009F221E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7772C2282993E965009F221E /* LaunchScreen.storyboard */; };
+		7772C2332993E986009F221E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7772C2322993E986009F221E /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7743BDDF2994C4F800F0B058 /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
+		7743BDE12994C50A00F0B058 /* FilmCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCevap.swift; sourceTree = "<group>"; };
+		7743BDE32994C51900F0B058 /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		7743BDE52994C52B00F0B058 /* KategoriCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriCevap.swift; sourceTree = "<group>"; };
+		7743BDE72994C53500F0B058 /* Yonetmenler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yonetmenler.swift; sourceTree = "<group>"; };
+		7743BDE92994F35A00F0B058 /* KategoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriTableViewCell.swift; sourceTree = "<group>"; };
+		7743BDEB2994F3D700F0B058 /* FilmCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCollectionViewCell.swift; sourceTree = "<group>"; };
+		7743BDED2994F48600F0B058 /* FilmDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetayViewController.swift; sourceTree = "<group>"; };
+		7743BDEF2994F52B00F0B058 /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
 		7772C21A2993E962009F221E /* MovieS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7772C21D2993E962009F221E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7772C21F2993E962009F221E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7772C2332993E986009F221E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,15 @@
 				7772C2262993E965009F221E /* Assets.xcassets */,
 				7772C2282993E965009F221E /* LaunchScreen.storyboard */,
 				7772C22B2993E965009F221E /* Info.plist */,
+				7743BDDF2994C4F800F0B058 /* Filmler.swift */,
+				7743BDE12994C50A00F0B058 /* FilmCevap.swift */,
+				7743BDE32994C51900F0B058 /* Kategoriler.swift */,
+				7743BDE52994C52B00F0B058 /* KategoriCevap.swift */,
+				7743BDE72994C53500F0B058 /* Yonetmenler.swift */,
+				7743BDE92994F35A00F0B058 /* KategoriTableViewCell.swift */,
+				7743BDEB2994F3D700F0B058 /* FilmCollectionViewCell.swift */,
+				7743BDED2994F48600F0B058 /* FilmDetayViewController.swift */,
+				7743BDEF2994F52B00F0B058 /* FilmViewController.swift */,
 			);
 			path = MovieS;
 			sourceTree = "<group>";
@@ -83,6 +112,9 @@
 			dependencies = (
 			);
 			name = MovieS;
+			packageProductDependencies = (
+				7772C2322993E986009F221E /* Alamofire */,
+			);
 			productName = MovieS;
 			productReference = 7772C21A2993E962009F221E /* MovieS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +143,9 @@
 				Base,
 			);
 			mainGroup = 7772C2112993E962009F221E;
+			packageReferences = (
+				7772C2312993E986009F221E /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 7772C21B2993E962009F221E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,7 +175,16 @@
 			files = (
 				7772C2222993E962009F221E /* ViewController.swift in Sources */,
 				7772C21E2993E962009F221E /* AppDelegate.swift in Sources */,
+				7743BDEA2994F35A00F0B058 /* KategoriTableViewCell.swift in Sources */,
+				7743BDEE2994F48600F0B058 /* FilmDetayViewController.swift in Sources */,
+				7743BDE62994C52B00F0B058 /* KategoriCevap.swift in Sources */,
 				7772C2202993E962009F221E /* SceneDelegate.swift in Sources */,
+				7743BDE42994C51900F0B058 /* Kategoriler.swift in Sources */,
+				7743BDEC2994F3D700F0B058 /* FilmCollectionViewCell.swift in Sources */,
+				7743BDE02994C4F800F0B058 /* Filmler.swift in Sources */,
+				7743BDE82994C53500F0B058 /* Yonetmenler.swift in Sources */,
+				7743BDF02994F52B00F0B058 /* FilmViewController.swift in Sources */,
+				7743BDE22994C50A00F0B058 /* FilmCevap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +400,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7772C2312993E986009F221E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7772C2322993E986009F221E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7772C2312993E986009F221E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7772C2122993E962009F221E /* Project object */;
 }
